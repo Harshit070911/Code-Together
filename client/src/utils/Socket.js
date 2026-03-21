@@ -1,6 +1,6 @@
 import io from "socket.io-client";
 
-const SOCKET_SERVER_URL = "https://editor-server-4yde.onrender.com";
+const SOCKET_SERVER_URL = "https://code-together-gej5.onrender.com";
 
 const socket = io(SOCKET_SERVER_URL);
 
