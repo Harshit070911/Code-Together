@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Footer from "../Components/Footer";
 import socket from "../utils/Socket";
 import { useNavigate } from "react-router-dom";
-import { BeamsBackground } from "@/components/ui/beams-background";
+import { BeamsBackground } from "@/Components/ui/beams-background";
 
 const Home = () => {
   const [showInput, setShowInput] = useState(false);
